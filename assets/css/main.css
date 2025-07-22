@@ -2586,6 +2586,19 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		/* iframe */ 
+		.iframe {
+			border: 0;
+		display: inline-block;
+		position: relative;
+		}
+
+		.iframe.fit{
+			display: block;
+			margin: 2.5rem 0;
+			width: 100%;
+		}
+
 /* Image */
 
 	.image {
